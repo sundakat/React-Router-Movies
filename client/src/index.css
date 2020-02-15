@@ -5,6 +5,11 @@ body {
   background-color: #f2f2f2;
 }
 
+a {
+  text-decoration: none;
+  color          : black;
+}
+
 .movie-card {
   background-color: #fff;
   border: 0;
@@ -32,8 +37,8 @@ body {
   margin: 1rem auto;
   width: 75%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: baseline;
+  justify-content: space-around;
 }
 
 .saved-list h3 {
@@ -68,5 +73,10 @@ body {
 
 .home-button {
   padding: 5px 10px;
-  background-color: lightskyblue;
+  background-color: slategray;
+}
+
+.clear-button {
+  padding: 5px 10px;
+  background-color: slategray;
 }
